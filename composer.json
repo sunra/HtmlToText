@@ -15,6 +15,6 @@
         "ezyang/htmlpurifier": "dev-master"
     },
     "autoload": {
-        "psr-0": { "HtmlToText": "src/" }        
+        "psr-0": { "Sunra\\HtmlToText": "src/" }        
     }
 }
