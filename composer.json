@@ -1,0 +1,21 @@
+{
+    "name": "sunra/html_to_text",
+    "description": "Working horse HTML to text convertor for PHP. Years of finding right choice",
+    "type": "library",
+    "keywords": ["html", "text", "conversion", "convertor", "markdows", "purifiing"],
+    "homepage": "https://github.com/sunra/HtmlToText",
+    "authors": [
+        {
+            "name": "Sunra",
+            "email": "sunra@yandex.ru",
+            "homepage": "https://github.com/sunra"
+        }
+    ],
+    "require": {
+        "ezyang/htmlpurifier": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "HtmlToText": "src/" },
+        "files": ["library/HTMLPurifier.composer.php"]
+    }
+}
