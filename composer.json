@@ -15,7 +15,6 @@
         "ezyang/htmlpurifier": "dev-master"
     },
     "autoload": {
-        "psr-0": { "HtmlToText": "src/" },
-        "files": ["library/HTMLPurifier.composer.php"]
+        "psr-0": { "HtmlToText": "src/" }        
     }
 }
