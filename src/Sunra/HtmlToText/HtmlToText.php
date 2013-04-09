@@ -27,7 +27,7 @@ class HtmlToText {
 	}
     
     /*  remove unsafe code (XSS attacks) and heals html - close tags etc */
-    public static purify ($html) {
+    public static function purify ($html) {
     	return self::filter( $html );
     }
 		
