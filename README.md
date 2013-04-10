@@ -1,6 +1,3 @@
-It is not worked yet!!!
-
-
 HtmlToText
 ==========
 
