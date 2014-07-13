@@ -24,7 +24,7 @@ Use
 $plain_text = \Sunra\HtmlToText\HtmlToText::plain_text( $html );
 
 // removed all tags but safest 'br,b,strong,li,ol,ul'
-$safe_html = \Sunra\HtmlToText\HtmlToText::plain_text( $html );
+$safe_html = \Sunra\HtmlToText\HtmlToText::safe_html( $html );
 
 // remove unsafe code (XSS attacks) and heals html - close tags etc
 $purified_html = \Sunra\HtmlToText\HtmlToText::purify( $html );
