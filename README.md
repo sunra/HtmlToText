@@ -9,7 +9,7 @@ Install
 -------
 
 Add
-```
+```json
 "ezyang/htmlpurifier": "dev-master",
 "sunra/html_to_text": "dev-master"
 ```
@@ -18,7 +18,7 @@ to required section in you composer.json
 Use
 ---
 
-```
+```php
 
 // Total remove tags. br converted to new lines
 $plain_text = \Sunra\HtmlToText\HtmlToText::plain_text( $html );
